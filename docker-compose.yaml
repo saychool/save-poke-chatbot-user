@@ -7,7 +7,7 @@ services:
       - "3000:3000"
     environment:
       - PORT=3000
-      - DATABASE_URL=postgresql://postgres:poke-chatbot-project@postgres:5432/postgres
+      - DATABASE_URL=postgresql://postgres:poke-chatbot-project@postgres:5432/poke-chatbot-project
 
   postgres:
     image: postgres:17-alpine3.21
